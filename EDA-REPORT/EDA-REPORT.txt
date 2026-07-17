@@ -1,0 +1,49 @@
+=========================================
+      EXPLORATORY DATA ANALYSIS (EDA)    
+=========================================
+
+1. DATASET SIZE & STRUCTURE:
+Total Rows: 120000
+Total Columns: 4
+
+Data Types:
+Title          object
+Description    object
+Topic           int64
+Full_Text      object
+dtype: object
+
+2. CLASS DISTRIBUTION:
+Topic
+3    30000
+4    30000
+2    30000
+1    30000
+Name: count, dtype: int64
+
+3. SAMPLE INSPECTION (First 3 Records):
+--- Sample 1 [3] ---
+Wall St. Bears Claw Back Into the Black (Reuters) - Reuters - Short-sellers, Wall Street's dwindling\band of ultra-cynics, are seeing green again.
+
+--- Sample 2 [3] ---
+Carlyle Looks Toward Commercial Aerospace (Reuters) - Reuters - Private investment firm Carlyle Group,\which has a reputation for making well-timed and occasionally\controversial plays in the defense industry, has quietly placed\its bets on another part of the market.
+
+--- Sample 3 [3] ---
+Oil and Economy Cloud Stocks' Outlook (Reuters) - Reuters - Soaring crude prices plus worries\about the economy and the outlook for earnings are expected to\hang over the stock market next week during the depth of the\summer doldrums.
+
+4. TEXT LENGTH ANALYSIS (Word Count):
+Minimum words in a text: 9
+Maximum words in a text: 178
+Average words in a text: 38.85
+
+5. NOISE IDENTIFICATION:
+Missing Values per column:
+Title          0
+Description    0
+Topic          0
+Full_Text      0
+Word_Count     0
+dtype: int64
+Rows containing URLs: 1791
+Rows containing HTML tags: 0
+Rows containing Special Chars: 120000
